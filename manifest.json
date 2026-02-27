@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Netcup Product Renamer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Adds custom labels to products on the netcup Customer Control Panel. Rename your servers and services for easier identification.",
   "browser_specific_settings": {
     "gecko": {
@@ -11,6 +11,9 @@
         "required": ["none"],
         "optional": []
       }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
     }
   },
   "permissions": [
