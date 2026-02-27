@@ -18,10 +18,20 @@
   <div class="section">
     <p class="hint">Hover over a renamed product to see the original name. Clear the name and save to reset.</p>
   </div>
+  <div class="section">
+    <h2>Backup / Restore</h2>
+    <div class="btn-row">
+      <button id="btn-export" class="btn">Export JSON</button>
+      <button id="btn-import" class="btn">Import JSON</button>
+    </div>
+    <input type="file" id="file-input" accept=".json" style="display:none;">
+    <div id="status" class="status" style="display:none;"></div>
+  </div>
   <div class="footer">
     <a href="https://github.com/version-two/sk.v2.addons.netcup" target="_blank">GitHub</a>
     <span class="separator">|</span>
     <span>&copy; 2026 Version Two</span>
   </div>
+  <script src="popup.js"></script>
 </body>
 </html>

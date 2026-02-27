@@ -38,6 +38,43 @@ ol li {
   margin: 0;
 }
 
+.btn-row {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fafafa;
+  font-size: 12px;
+  cursor: pointer;
+  color: #333;
+}
+
+.btn:hover {
+  background: #2a9d8f;
+  border-color: #2a9d8f;
+  color: #fff;
+}
+
+.status {
+  margin-top: 6px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.status.success {
+  color: #2a9d8f;
+}
+
+.status.error {
+  color: #e74c3c;
+}
+
 .footer {
   margin-top: 12px;
   padding-top: 8px;
