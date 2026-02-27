@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Netcup Product Renamer",
+  "version": "1.0.0",
+  "description": "Adds custom labels to products on the netcup Customer Control Panel. Rename your servers and services for easier identification.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "netcup-renamer@sk.v2",
+      "strict_min_version": "109.0"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.customercontrolpanel.de/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "icons/icon.svg"
+  },
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  }
+}

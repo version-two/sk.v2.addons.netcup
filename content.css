@@ -1,0 +1,67 @@
+.ncr-renamed {
+  color: #2a9d8f;
+  font-weight: bold;
+  cursor: help;
+}
+
+.ncr-rename-btn {
+  background: #2a9d8f;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.ncr-rename-btn:hover {
+  background: #238b80;
+}
+
+.ncr-rename-input {
+  width: 140px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.ncr-rename-input:focus {
+  outline: none;
+  border-color: #2a9d8f;
+}
+
+.ncr-save-btn {
+  background: #2a9d8f;
+  color: #fff;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.ncr-save-btn:hover {
+  background: #238b80;
+}
+
+.ncr-cancel-btn {
+  background: #ccc;
+  color: #333;
+  border: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.ncr-cancel-btn:hover {
+  background: #bbb;
+}
+
+.ncr-actions-cell {
+  white-space: nowrap;
+}
